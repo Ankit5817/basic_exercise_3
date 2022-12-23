@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#banner{
+    background-image: linear-gradient(to right, rgb(134, 1, 1) , rgb(223, 0, 0));
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#banner img{
+    width: 150pt;
+}
+#banner a{
+    text-decoration: none;
+}
+#bannerLeft{
+    display: inline;
+}
+#bannerRight{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#bannerRight span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+#bannerRight a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#bannerRight div{
+    text-align: right;
+}
+#href{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+nav{
+    height: 45px;
+    background-image: linear-gradient(to right, rgb(223, 0, 0) , rgb(134, 1, 1));
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+nav a:hover{
+    color: green;
+}
+nav div{
+    padding: 11px 0px;
+}
+
+
+section img{
+    width: 300px;
+    height: 110pt;
+    border: 6px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 5px;
+}
+section div{
+    display: grid;
+    justify-content: center;
+}
+section>div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+}
+section>div>div{
+    text-align: center;
+}
+section>div span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(151, 3, 3);
+}
+section>span{
+    color: rgb(151, 3, 3);
+    font-family: Monotype Corsiva;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+aside{
+    display: inline;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+li{
+    list-style: none;
+    background-color: rgb(151, 3, 3);
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 5px 0px;
+    color: white;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+aside>span{
+    color: rgb(151, 3, 3);
+    font-family: Monotype Corsiva;
+    font-size: 30px;
+    font-weight: 600;
+}
+li:hover{
+    color: green;
+    background-color: grey;
+    cursor: pointer;
+}
+
+#intro>span{
+    color: rgb(151, 3, 3);
+    font-family: Monotype Corsiva;
+    font-size: 30px;
+    font-weight: 600;
+}
+#intro>p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#intro{
+    margin-top: 40px;
+}
+
+#footer>span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+}
+#footer{
+    background-color: rgb(151, 3, 3);
+    height: 35px;
+    padding-top: 15px;
+    margin-top: 5px;
+}
+
